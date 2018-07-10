@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="go">#22f130</color>
+    <color name="segundos">#fff59d</color>
+    <color name="operacion">#81d4fa</color>
+    <color name="conteo">#b39ddb</color>
+    <color name="uno">#1634f4</color>
+    <color name="dos">#16f446</color>
+    <color name="tres">#e116f4</color>
+    <color name="cuatro">#16f4f4</color>
+    <color name="fondo1">#26c6da</color>
+    <color name="fondo2">#4dd0e1</color>
+    <color name="fondo3">#b2ebf2</color>
+</resources>

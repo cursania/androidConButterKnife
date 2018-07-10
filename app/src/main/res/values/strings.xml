@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">butterknife</string>
+    <string name="puntuacion">Tu puntuacion</string>
+    <string name="go">Go!</string>
+    <string name="segundos">30s</string>
+    <string name="operacion">99 + 99</string>
+    <string name="conteo">99/99</string>
+    <string name="casilla_uno">10</string>
+    <string name="casilla_dos">20</string>
+    <string name="casilla_tres">30</string>
+    <string name="casilla_cuatro">40</string>
+    <string name="correcto">Correcto</string>
+</resources>

@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tamañoCompleto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="tamañoAjustado">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="contenedorPrincipal" parent="tamañoCompleto">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/fondo2</item>
+    </style>
+
+    <style name="buttonGo">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:text">@string/go</item>
+        <item name="android:background">@drawable/button_circler</item>
+        <item name="android:layout_width">178dp</item>
+        <item name="android:layout_height">178dp</item>
+
+    </style>
+
+    <style name="puntuacionFinal" parent="tamañoAjustado">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/puntuacion</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+
+    <style name="estiloTextoCabecera" parent="tamañoAjustado">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="segundos" parent="estiloTextoCabecera">
+        <item name="android:text">@string/segundos</item>
+        <item name="android:background">@color/segundos</item>
+    </style>
+
+    <style name="operacion" parent="estiloTextoCabecera">
+        <item name="android:text">@string/operacion</item>
+        <item name="android:background">@color/operacion</item>
+    </style>
+
+    <style name="conteo" parent="estiloTextoCabecera">
+        <item name="android:text">@string/conteo</item>
+        <item name="android:background">@color/conteo</item>
+    </style>
+
+    <style name="estiloCuadroResultado">
+        <item name="android:textSize">70sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">180sp</item>
+        <item name="android:layout_height">150sp</item>
+    </style>
+
+    <style name="textoCorrectoIncorrecto" parent="tamañoAjustado">
+        <item name="android:textSize">40sp</item>
+        <item name="android:text">@string/correcto</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

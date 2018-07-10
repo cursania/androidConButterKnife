@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/tamañoCompleto"
+    android:background="@color/fondo1"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        style="@style/contenedorPrincipal"
+        >
+
+        <LinearLayout
+            android:id="@+id/llPrimera"
+            android:gravity="center"
+            android:orientation="vertical"
+            style="@style/tamañoCompleto">
+
+            <Button
+                android:id="@+id/btGo"
+                style="@style/buttonGo"
+                 />
+
+            <TextView
+                android:id="@+id/tvPuntuacionFinal"
+                style="@style/puntuacionFinal"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:id="@+id/llSegunda"
+            android:background="@color/fondo3"
+            style="@style/tamañoCompleto"
+            >
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvSegundos"
+                    style="@style/segundos"
+                     />
+                <TextView
+                    android:id="@+id/tvOperacion"
+                    style="@style/operacion"
+                     />
+                <TextView
+                    android:id="@+id/tvConteo"
+                    style="@style/conteo"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    style="@style/tamañoAjustado"
+                    >
+                    <TextView
+                        android:id="@+id/tvUno"
+                        android:background="@drawable/textview_option1"
+                        android:text="@string/casilla_uno"
+                        style="@style/estiloCuadroResultado"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvDos"
+                        android:background="@drawable/textview_option2"
+                        android:text="@string/casilla_dos"
+                        style="@style/estiloCuadroResultado"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/tamañoAjustado"
+                    >
+                    <TextView
+                        android:id="@+id/tvtres"
+                        android:background="@drawable/textview_option3"
+                        android:text="@string/casilla_tres"
+                        style="@style/estiloCuadroResultado"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvCuatro"
+                        android:background="@drawable/textview_option4"
+                        android:text="@string/casilla_cuatro"
+                        style="@style/estiloCuadroResultado"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/tamañoAjustado"
+                    >
+                    <TextView
+                        android:id="@+id/tvCorrectoIncorecto"
+                        style="@style/textoCorrectoIncorrecto"
+                         />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
